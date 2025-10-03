@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.4.0-alpha">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <StartupCommand>npm start</StartupCommand>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Script Include="**/*.*" />
+    </ItemGroup>
+
+</Project>
