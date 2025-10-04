@@ -1,17 +1,18 @@
 ﻿<Solution>
   <Folder Name="/Source/" />
-  <Folder Name="/Source/Application/" />
-  <Folder Name="/Source/Domain/" />
-  <Folder Name="/Source/Infra/">
-    <Project Path="Source\EstudosSolution.SeparadorBoletos.Infra\EstudosSolution.SeparadorBoletos.Infra.csproj" Type="Classic C#" />
-  </Folder>
-  <Folder Name="/Source/Presentation/">
+  <Folder Name="/Source/1 - Presentation/">
     <Project Path="Source\EstudosSolution.SeparadorBoletos.FrontEnd\EstudosSolution.SeparadorBoletos.esproj" Type="{54A90642-561A-4BB1-A94E-469ADEE60C69}">
       <Configuration Solution="Release|Any CPU" Project="Debug|Any CPU" />
     </Project>
   </Folder>
-  <Folder Name="/Source/Services/" />
-  <Folder Name="/Source/Services/BackEnd/">
+  <Folder Name="/Source/2 - Services/" />
+  <Folder Name="/Source/2 - Services/BackEnd/">
     <Project Path="Source\EstudosSolution.SeparadorBoletos.Api\EstudosSolution.SeparadorBoletos.Api.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Source/3 - Application/">
+    <Project Path="Source\EstudosSolution.SeparadorBoletos.Application\EstudosSolution.SeparadorBoletos.Application.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Source/4 - Domain/">
+    <Project Path="Source\EstudosSolution.SeparadorBoletos.Domain\EstudosSolution.SeparadorBoletos.Domain.csproj" Type="Classic C#" />
   </Folder>
 </Solution>
